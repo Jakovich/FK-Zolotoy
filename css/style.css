@@ -19,7 +19,7 @@
 
 	
 }
-.social_btn{
+.header_social .social_btn{
 	width: 22px;
 	height: 24px;
 	background-color: #000000;
@@ -29,10 +29,10 @@
 	vertical-align: top;
 	margin-right: 6px
 }
-.social_btn_inst {
+.header_social .social_btn_inst {
 	background-image: url("../img/icon_inst.png");
 }
-.social_btn_youtube{
+.header_social .social_btn_youtube{
 	width: 27px;
 	height:19px;
 	background-image: url(../img/icon_youtube.png);
@@ -74,4 +74,36 @@
 
 .last-news .caret{
 	transform: rotate(-90deg);
+}
+
+.games{
+	width:250px;
+}
+.game-result{
+	background-color: grey;
+} 
+
+
+
+.main-footer{
+	background-color: grey;
+}
+
+.footer_social .social_btn{
+	width: 22px;
+	height: 24px;
+	
+	background-image: url("../img/icon_vk_footer.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 6px
+}
+.footer_social .social_btn_inst {
+	background-image: url("../img/icon_inst_footer.png");
+}
+.footer_social .social_btn_youtube{
+	width: 27px;
+	height:19px;
+	background-image: url(../img/icon_youtube_footer.png);
 }
