@@ -1,11 +1,20 @@
+body {
+	font-family: 'Open Sans', 'Arial', sans-serif;
+}
 .intro {
 	
-	background-image:url(../img/intro_bg.jpg);
+	background-image:url(../img/intro-bg.jpg);
 	background-position: 0 center;
 	background-repeat:no-repeat;
 }
 
-.table_results{
+.pre-header-nav a{
+	font-size: 12px;
+	font-weight: 700;
+	color:#545557;
+	text-transform: uppercase;
+} 
+.table-results{
 	background-color: #504f4b;
 	color: #979693;
 }
@@ -14,28 +23,28 @@
 }
 
 
-.pre_header_nav {
+.pre-header-nav {
 	background-color: #000000;
 
 	
 }
-.header_social .social_btn{
+.header-social .social-btn{
 	width: 22px;
 	height: 24px;
 	background-color: #000000;
-	background-image: url("../img/icon_vk.png");
+	background-image: url("../img/icon-vk.png");
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 6px
 }
-.header_social .social_btn_inst {
-	background-image: url("../img/icon_inst.png");
+.header-social .social-btn-inst {
+	background-image: url("../img/icon-inst.png");
 }
-.header_social .social_btn_youtube{
+.header-social .social-btn-youtube{
 	width: 27px;
 	height:19px;
-	background-image: url(../img/icon_youtube.png);
+	background-image: url(../img/icon-youtube.png);
 }
 
 .form-control{
@@ -47,10 +56,22 @@
 	right:25px;
 }
 
+.second-row-right h1{
+	color: #fcbf00;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+}
+
+
 .title {
 	position:relative;
 	padding-right:50px;
 	width:250px;
+	color:#979693;
+	font-size:12px;
+	line-height: 15px;
+	text-transform: uppercase;
 }
 .title::after{
 	position: absolute;
@@ -60,50 +81,160 @@
 	display:block;
 	width:73px;
 	height:84px;
-	background-image:url(../img/icon_cup.png);
+	background-image:url(../img/icon-cup.png);
 }
 
-.intro_img {
-	position: relative;
-}
-.last-news{
-	position: absolute;
-	bottom:0;
+
+.main-nav a{
+	color:#7e7d7d;
+	font-size: 14px;
+	text-transform: uppercase;
 	
 }
 
+.main-nav .active a{
+	color:#fcbf00;
+}
+
+.intro-img {
+	position: relative;
+}
+
+
+.last-news{
+	position: absolute;
+	bottom:0;
+	font-sixe:16px;
+	text-transform: uppercase;
+}
+
+.last-news-title {
+	color: #ffffff;
+}
+
+.last-news-item {
+	color: #232520;
+	font-weight: 700;
+}
+
 .last-news .caret{
-	transform: rotate(-90deg);
+	transform: rotate(-90deg) scale(1.5);
+	
 }
 
 .games{
-	width:250px;
+	width:380px;
 }
 .game-result{
 	background-color: grey;
 } 
 
-
-
-.main-footer{
-	background-color: grey;
+.game-info{
+	font-size: 10px;
+	text-transform: uppercase;
+	color:#7e7d7d;
 }
 
-.footer_social .social_btn{
+.game-result .name{
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.game-result .name-zolotoy{
+	color:#f7cb55;
+}
+.game-result .count{
+	font-size:24px;
+	line-height: 40px;
+	font-weight: 700;
+	color: #ffffff;
+}
+
+.table-results{
+	font-size:12px;
+	line-height:48px;
+	font-weight:700;
+	text-transform: uppercase;
+	color:#979693;
+}
+
+.table-results th{
+	color: #ffffff;
+}
+
+.teams header{
+	font-size:16px;
+	font-weight:700;
+	text-transform: uppercase;
+	color: #000000;
+	border-bottom: 5px solid #000000;
+}
+
+
+.news-interviews h3 {
+	font-size:16px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color:#275b9c;
+}
+
+.date-times{
+	font-weight: 700;
+	font-size:14px;
+	color: #000000;
+}
+
+.news-interviews .explic {
+	font-size: 14px;
+	line-height: 22px;
+	color: #888888;
+}
+
+.interview-block .author {
+	font-weight: 700;
+}
+
+
+.main-footer {
+	background-color: #232633;
+}
+
+.main-footer {
+	font-size:14px;
+	line-height: 24px;
+	font-weight: 400;
+	color:#888787;
+}
+
+.main-footer h3 {
+	font-size:16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.main-footer .phone {
+	color: #ffffff;
+}
+
+.footer-social .social-btn {
 	width: 22px;
 	height: 24px;
-	
-	background-image: url("../img/icon_vk_footer.png");
+	background-image: url("../img/icon-vk-footer.png");
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: top;
 	margin-right: 6px
 }
-.footer_social .social_btn_inst {
-	background-image: url("../img/icon_inst_footer.png");
+
+.footer-social .social-btn-inst {
+	background-image: url("../img/icon-inst-footer.png");
 }
-.footer_social .social_btn_youtube{
+
+.footer-social .social-btn-youtube {
 	width: 27px;
 	height:19px;
-	background-image: url(../img/icon_youtube_footer.png);
+	background-image: url(../img/icon-youtube-footer.png);
 }
