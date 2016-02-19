@@ -1,0 +1,77 @@
+.intro {
+	
+	background-image:url(../img/intro_bg.jpg);
+	background-position: 0 center;
+	background-repeat:no-repeat;
+}
+
+.table_results{
+	background-color: #504f4b;
+	color: #979693;
+}
+.teams {
+	background-color: #d2a630;
+}
+
+
+.pre_header_nav {
+	background-color: #000000;
+
+	
+}
+.social_btn{
+	width: 22px;
+	height: 24px;
+	background-color: #000000;
+	background-image: url("../img/icon_vk.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 6px
+}
+.social_btn_inst {
+	background-image: url("../img/icon_inst.png");
+}
+.social_btn_youtube{
+	width: 27px;
+	height:19px;
+	background-image: url(../img/icon_youtube.png);
+}
+
+.form-control{
+	background-color: #000000;
+	padding-right:0;
+	
+}
+.form-group .glyphicon {
+	right:25px;
+}
+
+.title {
+	position:relative;
+	padding-right:50px;
+	width:250px;
+}
+.title::after{
+	position: absolute;
+	right:0;
+	top:-10px;
+	content:'';
+	display:block;
+	width:73px;
+	height:84px;
+	background-image:url(../img/icon_cup.png);
+}
+
+.intro_img {
+	position: relative;
+}
+.last-news{
+	position: absolute;
+	bottom:0;
+	
+}
+
+.last-news .caret{
+	transform: rotate(-90deg);
+}
