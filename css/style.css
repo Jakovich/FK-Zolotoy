@@ -11,7 +11,7 @@ body {
 
 /*pre-header*/
 .pre-header-nav {
-	background-color: #000000;
+	background-color: #1a1919;
 	padding-top:5px;
 	
 }
@@ -34,7 +34,7 @@ body {
 .pre-header-social .social-btn {
 	width: 22px;
 	height: 24px;
-	background-color: #000000;
+	background-color: #1a1919;
 	background-image: url("../img/icon-vk.png");
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -58,7 +58,7 @@ body {
 }
 
 .form-control {
-	background-color: #000000;
+	background-color: #1a1919;
 	padding-right:0;
 	border: 1px solid #545557;
     border-radius: 12px;
@@ -291,7 +291,7 @@ body {
 }
 
 .table > tbody > tr.zolotoy_cell>td {
-	background-color: #e7bb44;
+	background-color: #8f752f;
 	color: #ffffff;
 }
 
@@ -431,6 +431,8 @@ body {
 .main-footer h3 {
 	font-size:16px;
 	font-weight: 700;
+	margin-top:45px;
+	margin-bottom: 35px;
 	text-transform: uppercase;
 	color: #ffffff;
 }
@@ -450,7 +452,7 @@ body {
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 6px
+	margin-right: 15px;
 }
 
 .footer-social .social-btn-inst {
