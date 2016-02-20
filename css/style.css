@@ -12,8 +12,12 @@ body {
 /*pre-header*/
 .pre-header-nav {
 	background-color: #000000;
-	padding-top:15px;
-	padding-bottom:15px;
+	padding-top:5px;
+	
+}
+.pre-header-nav .navbar{
+	margin-bottom:0;
+	
 }
 
 .pre-header-nav a {
@@ -23,6 +27,10 @@ body {
 	text-transform: uppercase;
 } 
 
+.pre-header-social {
+	padding-top:10px;
+}
+
 .pre-header-social .social-btn {
 	width: 22px;
 	height: 24px;
@@ -31,7 +39,7 @@ body {
 	background-repeat: no-repeat;
 	display: inline-block;
 	vertical-align: top;
-	margin-right: 6px
+	margin-right: 20px
 }
 
 .pre-header-social .social-btn-inst {
@@ -41,16 +49,30 @@ body {
 .pre-header-social .social-btn-youtube {
 	width: 27px;
 	height:24px;
+	margin-right: 40px;
 	background-image: url(../img/icon-youtube.png);
+}
+
+.zolotoy-shop {
+	padding-top:10px;
 }
 
 .form-control {
 	background-color: #000000;
 	padding-right:0;
+	border: 1px solid #545557;
+    border-radius: 12px;
 }
 
 .form-group .glyphicon {
-	right:25px;
+	top:5px;
+	right:32px;
+	font-size: 18px;
+	color: #545557;
+}
+
+.language {
+	padding-top:10px;
 }
 
 
@@ -268,10 +290,11 @@ body {
     border-bottom: none;
 }
 
-.zolotoy_cell{
+.table > tbody > tr.zolotoy_cell>td {
 	background-color: #e7bb44;
 	color: #ffffff;
 }
+
 .table-results td{
 	height:50px;
 	vertical-align: middle;
@@ -281,6 +304,11 @@ body {
 	text-align:center;
 }
 .table-results .team-logo{
+	text-align:center;
+}
+
+.table-results .team-result {
+	min-width: 45px;
 	text-align:center;
 }
 
