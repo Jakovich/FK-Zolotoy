@@ -123,13 +123,21 @@ body {
 	text-transform: uppercase;
 }
 
+.last-news a{
+	display: inline-block;
+}
+
 .last-news-title {
 	color: #ffffff;
+	padding: 10px 20px;
+	background-color: rgba(169,136,48,0.9);
 }
 
 .last-news-item {
 	color: #232520;
 	font-weight: 700;
+	padding: 10px 30px;
+	background-color:rgba(213,177,80,0.85);
 }
 
 .last-news .caret {
@@ -138,7 +146,24 @@ body {
 }
 
 /*results*/
-.game {
+
+.game-results{
+	background-color:#2f2d29;
+	padding-top:40px;
+}
+
+.game-results h2 {
+	font-size:16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin:0;
+	padding:0;
+	display:block;
+	border-bottom: 5px solid #e7bb44;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	
 }
 
 .game-result {
@@ -171,15 +196,11 @@ body {
 }
 
 .table-results {
-	background-color: #504f4b;
-	color: #979693;
-}
-
-.table-results {
 	font-size:12px;
-	line-height:48px;
+	line-height:18px;
 	font-weight:700;
 	text-transform: uppercase;
+	background-color: #504f4b;
 	color:#979693;
 }
 
@@ -198,6 +219,18 @@ body {
 
 .table-results th {
 	color: #ffffff;
+}
+
+.table-results td{
+	height:50px;
+	vertical-align: middle;
+}
+
+.table-results .number {
+	text-align:center;
+}
+.table-results .team-logo{
+	text-align:center;
 }
 
 
