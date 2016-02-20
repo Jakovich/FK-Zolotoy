@@ -1,12 +1,16 @@
 body {
 	font-family: 'Open Sans', 'Arial', sans-serif;
 }
-.intro {
-	
-	background-image:url(../img/intro-bg.jpg);
-	background-position: 0 center;
-	background-repeat:no-repeat;
+
+
+
+.pre-header-nav {
+	background-color: #000000;
+	padding-top:15px;
+	padding-bottom:15px;
 }
+
+
 
 .pre-header-nav a{
 	font-size: 12px;
@@ -14,21 +18,7 @@ body {
 	color:#545557;
 	text-transform: uppercase;
 } 
-.table-results{
-	background-color: #504f4b;
-	color: #979693;
-}
-.teams {
-	background-color: #d2a630;
-}
-
-
-.pre-header-nav {
-	background-color: #000000;
-
-	
-}
-.header-social .social-btn{
+.pre-header-social .social-btn{
 	width: 22px;
 	height: 24px;
 	background-color: #000000;
@@ -38,14 +28,37 @@ body {
 	vertical-align: top;
 	margin-right: 6px
 }
-.header-social .social-btn-inst {
+.pre-header-social .social-btn-inst {
 	background-image: url("../img/icon-inst.png");
 }
-.header-social .social-btn-youtube{
+.pre-header-social .social-btn-youtube{
 	width: 27px;
-	height:19px;
+	height:24px;
 	background-image: url(../img/icon-youtube.png);
 }
+.intro {
+	background-color:#211f1e;
+	background-image:url(../img/intro-bg.jpg);
+	background-position: 0 center;
+	background-repeat: repeat-y;
+}
+
+
+
+
+
+
+.table-results{
+	background-color: #504f4b;
+	color: #979693;
+}
+.teams {
+	background-color: #d2a630;
+}
+
+
+
+
 
 .form-control{
 	background-color: #000000;
@@ -64,15 +77,26 @@ body {
 }
 
 
+.main-header {
+	margin-bottom:50px;
+	
+}
+.main-title{
+	padding-bottom:10px;
+	border-bottom: 3px solid #fcbf00;
+	margin-bottom:15px;
+}
 .title {
 	position:relative;
-	padding-right:50px;
+	padding-top:20px;
+	padding-right:70px;
 	width:250px;
 	color:#979693;
 	font-size:12px;
 	line-height: 15px;
 	text-transform: uppercase;
 }
+
 .title::after{
 	position: absolute;
 	right:0;
@@ -88,13 +112,20 @@ body {
 .main-nav a{
 	color:#7e7d7d;
 	font-size: 14px;
+	font-weight:700;
 	text-transform: uppercase;
 	
 }
 
-.main-nav .active a{
+.main-menu a:hover{
+	
+}
+.main-menu li.active a{
+	background-color: transparent;
 	color:#fcbf00;
 }
+
+
 
 .intro-img {
 	position: relative;
@@ -158,6 +189,18 @@ body {
 	font-weight:700;
 	text-transform: uppercase;
 	color:#979693;
+}
+.table-results caption {
+	font-size:16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	border-bottom: 5px solid #e7bb44;
+	margin-bottom:10px;
+}
+.table-results caption caret{
+	transform:scale(1.5);
+	
 }
 
 .table-results th{
