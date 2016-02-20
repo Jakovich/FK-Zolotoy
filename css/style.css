@@ -53,23 +53,31 @@ body {
 	right:25px;
 }
 
-.second-row-right h1 {
-	color: #fcbf00;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 40px;
-}
+
 
 /*main-header*/
 .main-header {
 	padding-top:25px;
 	margin-bottom:50px;
 }
-
+.main-header .logo{
+	padding-top:20px;
+}
 .main-title {
-	padding-bottom:10px;
+	padding-bottom:20px;
 	border-bottom: 2px solid #fcbf00;
 	margin-bottom:15px;
+}
+.main-title-name {
+	padding:0;
+}
+
+.main-title h1 {
+	padding:0;
+	color: #fcbf00;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
 }
 
 .title {
@@ -111,32 +119,50 @@ body {
 }
 
 
+
+
 /*intro img*/
+
+.intro-img-container {
+	padding:0;
+}
+
 .intro-img {
 	position: relative;
 }
 
 .last-news {
-	position: absolute;
+	display:block;
+	
 	bottom:0;
 	font-sixe:16px;
 	text-transform: uppercase;
 }
+.last-news .col-sm-2 {
+	margin:0;
+	padding-right:0;
+}
+
+.last-news .col-sm-10  {
+	margin:0;
+	padding-left:0;
+}
 
 .last-news a{
-	display: inline-block;
+	display: block;
+	padding: 15px 10px;
 }
 
 .last-news-title {
 	color: #ffffff;
-	padding: 10px 20px;
+	
 	background-color: rgba(169,136,48,0.9);
 }
 
 .last-news-item {
 	color: #232520;
 	font-weight: 700;
-	padding: 10px 30px;
+	
 	background-color:rgba(213,177,80,0.85);
 }
 
