@@ -2,23 +2,28 @@ body {
 	font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
+.intro {
+	background-color:#211f1e;
+	background-image:url(../img/intro-bg.jpg);
+	background-position: 0 center;
+	background-repeat: repeat-y;
+}
 
-
+/*pre-header*/
 .pre-header-nav {
 	background-color: #000000;
 	padding-top:15px;
 	padding-bottom:15px;
 }
 
-
-
-.pre-header-nav a{
+.pre-header-nav a {
 	font-size: 12px;
 	font-weight: 700;
 	color:#545557;
 	text-transform: uppercase;
 } 
-.pre-header-social .social-btn{
+
+.pre-header-social .social-btn {
 	width: 22px;
 	height: 24px;
 	background-color: #000000;
@@ -28,68 +33,49 @@ body {
 	vertical-align: top;
 	margin-right: 6px
 }
+
 .pre-header-social .social-btn-inst {
 	background-image: url("../img/icon-inst.png");
 }
-.pre-header-social .social-btn-youtube{
+
+.pre-header-social .social-btn-youtube {
 	width: 27px;
 	height:24px;
 	background-image: url(../img/icon-youtube.png);
 }
-.intro {
-	background-color:#211f1e;
-	background-image:url(../img/intro-bg.jpg);
-	background-position: 0 center;
-	background-repeat: repeat-y;
-}
 
-
-
-
-
-
-.table-results{
-	background-color: #504f4b;
-	color: #979693;
-}
-.teams {
-	background-color: #d2a630;
-}
-
-
-
-
-
-.form-control{
+.form-control {
 	background-color: #000000;
 	padding-right:0;
-	
 }
+
 .form-group .glyphicon {
 	right:25px;
 }
 
-.second-row-right h1{
+.second-row-right h1 {
 	color: #fcbf00;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 40px;
 }
 
-
+/*main-header*/
 .main-header {
+	padding-top:25px;
 	margin-bottom:50px;
-	
 }
-.main-title{
+
+.main-title {
 	padding-bottom:10px;
-	border-bottom: 3px solid #fcbf00;
+	border-bottom: 2px solid #fcbf00;
 	margin-bottom:15px;
 }
+
 .title {
 	position:relative;
 	padding-top:20px;
-	padding-right:70px;
+	padding-right:85px;
 	width:250px;
 	color:#979693;
 	font-size:12px;
@@ -97,10 +83,10 @@ body {
 	text-transform: uppercase;
 }
 
-.title::after{
+.title::after {
 	position: absolute;
 	right:0;
-	top:-10px;
+	top:-15px;
 	content:'';
 	display:block;
 	width:73px;
@@ -108,31 +94,29 @@ body {
 	background-image:url(../img/icon-cup.png);
 }
 
-
-.main-nav a{
+.main-nav a {
 	color:#7e7d7d;
 	font-size: 14px;
 	font-weight:700;
 	text-transform: uppercase;
+}
+
+.main-menu a:hover {
 	
 }
 
-.main-menu a:hover{
-	
-}
-.main-menu li.active a{
+.main-menu li.active a {
 	background-color: transparent;
 	color:#fcbf00;
 }
 
 
-
+/*intro img*/
 .intro-img {
 	position: relative;
 }
 
-
-.last-news{
+.last-news {
 	position: absolute;
 	bottom:0;
 	font-sixe:16px;
@@ -148,48 +132,57 @@ body {
 	font-weight: 700;
 }
 
-.last-news .caret{
+.last-news .caret {
 	transform: rotate(-90deg) scale(1.5);
 	
 }
 
-.games{
-	
+/*results*/
+.game {
 }
-.game-result{
+
+.game-result {
 	background-color: #504f4b;
 } 
 
-.game-info{
+.game-info {
 	font-size: 10px;
 	text-transform: uppercase;
 	color:#7e7d7d;
 }
 
-.game-result .name{
+.game-result .name {
 	font-size: 12px;
 	font-weight: 700;
 	line-height: 40px;
 	text-transform: uppercase;
 	color: #ffffff;
 }
-.game-result .name-zolotoy{
+
+.game-result .name-zolotoy {
 	color:#f7cb55;
 }
-.game-result .count{
+
+.game-result .count {
 	font-size:24px;
 	line-height: 40px;
 	font-weight: 700;
 	color: #ffffff;
 }
 
-.table-results{
+.table-results {
+	background-color: #504f4b;
+	color: #979693;
+}
+
+.table-results {
 	font-size:12px;
 	line-height:48px;
 	font-weight:700;
 	text-transform: uppercase;
 	color:#979693;
 }
+
 .table-results caption {
 	font-size:16px;
 	font-weight: 700;
@@ -198,23 +191,26 @@ body {
 	border-bottom: 5px solid #e7bb44;
 	margin-bottom:10px;
 }
-.table-results caption caret{
+
+.table-results caption caret {
 	transform:scale(1.5);
-	
 }
 
-.table-results th{
+.table-results th {
 	color: #ffffff;
 }
 
+
+/*teams*/
 .teams {
 	font-size:12px;
 	text-transform: uppercase;
 	font-weigt: 400;
 	color: #000000;
+	background-color: #d2a630;
 }
 
-.teams header{
+.teams header {
 	font-size:16px;
 	font-weight:700;
 	text-transform: uppercase;
@@ -227,7 +223,7 @@ body {
 	padding-left:10px;
 }
 
-
+/*news&interviews*/
 .news-interviews h3 {
 	font-size:16px;
 	text-transform: uppercase;
@@ -235,7 +231,7 @@ body {
 	color:#275b9c;
 }
 
-.date-times{
+.date-times {
 	font-weight: 700;
 	font-size:14px;
 	color: #000000;
@@ -252,6 +248,7 @@ body {
 }
 
 
+/*footer*/
 .main-footer {
 	background-color: #232633;
 }
@@ -265,7 +262,7 @@ body {
 	color:#888787;
 }
 
- .main-footer .partner{
+ .main-footer .partner {
 	 display:inline-block;
 	 padding-left:40px;
 	 padding-right:40px;
