@@ -195,13 +195,10 @@ body {
 
 /*results*/
 
-.tablo-section {
-	
-}
-
 .results{
 	background-color:#2f2d29;
 	padding-top:40px;
+	padding-bottom:50px;
 }
 
 .game-results [class*='col-'] {
@@ -458,6 +455,9 @@ body {
 .news-interviews {
 	padding-top: 20px;
 }
+.news-interviews .container{
+	padding:15px'
+}
 
 .news-interviews h3 {
 	font-size:16px;
@@ -467,8 +467,18 @@ body {
 	margin-bottom: 30px;
 }
 
+.news [class*='col-'] {
+
+	padding-right:45px;
+	
+}
+
 .news-block {
 	margin-bottom: 75px;
+}
+
+.news-block img{
+	width:100%;
 }
 
 .news h3{
@@ -481,14 +491,17 @@ body {
 	color: #000000;
 }
 
+
 .news-interviews .explic {
 	font-size: 14px;
 	line-height: 22px;
 	color: #888888;
+	margin-top:20px;
 }
 
 .interview-block {
 	margin-bottom: 20px;
+	
 }
 
 .interview-block .author {
@@ -557,6 +570,10 @@ body {
 
 @media screen and (max-width: 768px) {
 	.team-item {
+		max-width: 450px;
+		margin:0 auto;
+	}
+	.news-block {
 		max-width: 450px;
 		margin:0 auto;
 	}
