@@ -379,6 +379,15 @@ body {
 	padding-bottom: 30px;
 }
 
+.teams .row{
+	margin-left:0px;
+	margin-right:0px;
+}
+.teams [class*='col-'] {
+	padding-right:6px;
+	padding-left:6px;
+}
+
 .team-item .row {
 	margin-left: 0;
 	margin-right:0;
@@ -390,6 +399,7 @@ body {
 
 .team-item .img-responsive{
 	margin-bottom:10px;
+	width:100%;
 }
 
 .team-item .status {
