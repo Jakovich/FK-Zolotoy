@@ -454,9 +454,10 @@ body {
 /*news&interviews*/
 .news-interviews {
 	padding-top: 20px;
+	padding-bottom: 30px;
 }
 .news-interviews .container{
-	padding:15px'
+	padding:15px;
 }
 
 .news-interviews h3 {
@@ -468,22 +469,19 @@ body {
 }
 
 .news [class*='col-'] {
-
 	padding-right:45px;
-	
 }
+
 
 .news-block {
 	margin-bottom: 75px;
 }
 
-.news-block img{
+.news-interviews img{
 	width:100%;
 }
 
-.news h3{
-	margin-left:15px;
-}
+
 
 .date-times {
 	font-weight: 700;
@@ -573,9 +571,13 @@ body {
 		max-width: 450px;
 		margin:0 auto;
 	}
-	.news-block {
+	.news-block,
+	.interview-block, 
+	.news-interviews h3 {
 		max-width: 450px;
 		margin:0 auto;
+		margin-bottom:30px;
+		
 	}
 }
 @media screen and (max-width: 1200px) {
@@ -583,4 +585,10 @@ body {
 		max-width: 600px;
 		margin:0 auto;
 	}
+		.interviews [class*='col-'] {
+
+	padding-right:45px;
+	
+}
+
 }
