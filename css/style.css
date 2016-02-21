@@ -3,8 +3,8 @@ body {
 }
 
 .intro {
-	background-color:#211f1e;
-	background-image:url(../img/intro-bg.jpg);
+	background-color: #211f1e;
+	background-image: url(../img/intro-bg.jpg);
 	background-position: center 0;
 	background-repeat: repeat-y;
 }
@@ -12,23 +12,22 @@ body {
 /*pre-header*/
 .pre-header-nav {
 	background-color: #1a1919;
-	padding-top:5px;
+	padding-top: 5px;
 	
 }
-.pre-header-nav .navbar{
-	margin-bottom:0;
-	
+.pre-header-nav .navbar {
+	margin-bottom: 0;
 }
 
 .pre-header-nav a {
 	font-size: 12px;
 	font-weight: 700;
-	color:#545557;
+	color: #545557;
 	text-transform: uppercase;
 } 
 
 .pre-header-social {
-	padding-top:10px;
+	padding-top: 10px;
 }
 
 .pre-header-social .social-btn {
@@ -48,104 +47,118 @@ body {
 
 .pre-header-social .social-btn-youtube {
 	width: 27px;
-	height:24px;
-	margin-right: 40px;
+	height: 24px;
+	margin-right: 20px;
 	background-image: url(../img/icon-youtube.png);
 }
 
 .zolotoy-shop {
-	padding-top:10px;
+	padding-top: 10px;
+}
+
+.navbar-form {
+	padding: 0;
+
 }
 
 .form-container {
-
+	padding: 0;
 }
+
+.form-group {
+	position: relative;
+}
+
 .form-control {
 	background-color: #1a1919;
-	padding-right:0;
+	padding-right: 0;
 	border: 1px solid #545557;
     border-radius: 12px;
 }
 
 .form-group .glyphicon {
-	top:5px;
-	right:32px;
+	position: absolute;
+	top: 7px;
+	right: 15px;
 	font-size: 18px;
 	color: #545557;
 }
 
 .language {
-	padding-top:10px;
+	padding-top: 10px;
 }
 
 
 
 /*main-header*/
 .main-header {
-	
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
+
 .second-row-left {
-	text-align:left;
-	padding-left:30px;
+	text-align: left;
+	padding-left: 30px;
 }
 
 .second-row-right {
-	margin:0;
-	padding:0 15px 0 25px;
+	margin: 0;
+	padding: 0 15px 0 25px;
 }
 
-.main-header .logo{
-	padding-top:20px;
+.main-header .logo {
+	padding-top: 20px;
 }
-.main-header .col-lg-2{
-	padding-right:0;
+
+.main-header .col-lg-2 {
+	padding-right: 0;
 }
+
 .main-title {
-	padding-bottom:20px;
+	padding-bottom: 20px;
 	border-bottom: 2px solid #fcbf00;
-	margin-bottom:15px;
+	margin-bottom: 15px;
 }
+
 .main-title-name {
-	padding:0;
+	padding: 0;
 }
 
 .main-title h1 {
-	padding:0;
+	padding: 0;
 	color: #fcbf00;
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 40px;
-	margin-top:40px;
+	margin-top: 40px;
 }
 
 .title {
-	position:relative;
-	padding-top:20px;
-	padding-right:85px;
-	margin-top:20px;
-	width:250px;
-	color:#979693;
-	font-size:12px;
+	position: relative;
+	padding-top: 20px;
+	padding-right: 85px;
+	margin-top: 20px;
+	width: 250px;
+	color: #979693;
+	font-size: 12px;
 	line-height: 15px;
 	text-transform: uppercase;
 }
 
 .title::after {
 	position: absolute;
-	right:0;
-	top:-15px;
+	right: 0;
+	top: -15px;
 	content:'';
-	display:block;
-	width:73px;
-	height:84px;
-	background-image:url(../img/icon-cup.png);
+	display: block;
+	width: 73px;
+	height: 84px;
+	background-image: url(../img/icon-cup.png);
 }
 
 .main-nav a {
-	color:#7e7d7d;
+	color: #7e7d7d;
 	font-size: 14px;
-	font-weight:700;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -161,28 +174,28 @@ body {
 
 .main-menu li.active a {
 	background-color: transparent;
-	color:#fcbf00;
-}
-.main-nav .navbar-collapse {
-	padding:0;
-}
-.main-nav button {
-	color:#fcbf00;
-}
-.main-nav .icon-bar{
-	color:#fcbf00;
-	background-color:#fcbf00;
-	
+	color: #fcbf00;
 }
 
+.main-nav .navbar-collapse {
+	padding: 0;
+}
+
+.main-nav button {
+	color: #fcbf00;
+}
+
+.main-nav .icon-bar {
+	color: #fcbf00;
+	background-color: #fcbf00;
+}
 
 
 
 /*intro img*/
 
 .intro-img-container {
-	padding:0;
-	
+	padding: 0;
 }
 
 .intro-img {
@@ -190,23 +203,22 @@ body {
 }
 
 .last-news {
-	display:block;
-	position:absolute;
-	bottom:0;
-	left:0;
-	right:0;
-	font-sixe:16px;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-sixe: 16px;
 	text-transform: uppercase;
-	margin:0;
+	margin: 0;
 }
 
 
 .last-news  [class*='col-'] {
-	padding:0;
-	
+	padding: 0;
 }
 
-.last-news a{
+.last-news a {
 	display: block;
 	padding: 15px 10px;
 }
@@ -221,25 +233,25 @@ body {
 	color: #232520;
 	font-weight: 700;
 	padding-left: 30px;
-	background-color:rgba(213,177,80,0.85);
+	background-color: rgba(213,177,80,0.85);
 }
 
 .last-news .caret {
-	transform: rotate(-90deg) scale(1.5);
+	transform: rotate(-90deg) scale(1.4);
 	
 }
 
 /*results*/
 
-.results{
-	background-color:#2f2d29;
-	padding-top:40px;
-	padding-bottom:50px;
+.results {
+	background-color: #2f2d29;
+	padding-top: 40px;
+	padding-bottom: 50px;
 }
 
 .game-results [class*='col-'] {
-	padding-left:0;
-	padding-right:0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 .game-results h2 {
@@ -263,8 +275,9 @@ body {
 .last-games .game {
 	margin-right: 3px;
 }
+
 .future-games .game {
-	margin-left:3px;
+	margin-left: 3px;
 }
 
 .game-result {
@@ -274,29 +287,30 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-bottom: 5px;
-	
 } 
 
 .game-info {
 	font-size: 10px;
 	text-transform: uppercase;
-	color:#7e7d7d;
+	color: #7e7d7d;
 	display: table;
-	width:100%;
+	width: 100%;
 }
+
 .game-info .date {
 	display: table-cell;
 	text-align: right;
 	width: 48%;
 }
+
 .game-info .separate {
 	display: table-cell;
-	text-align:center;
+	text-align: center;
 }
 
 .game-info .sport {
 	display: table-cell;
-	text-align:left;
+	text-align: left;
 	width: 48%;
 }
 
@@ -310,53 +324,57 @@ body {
 
 .game-result .owner {
 	display: table-cell;
-	width:37%;
-	vertical-align:middle;
+	width: 37%;
+	vertical-align: middle;
 }
 
 .game-result .owner .name {
-	padding-right:5px;
+	padding-right: 5px;
 }
 
 .game-result .guest .name {
-	padding-left:5px;
+	padding-left: 5px;
 }
 
 .game-result .guest {
 	display: table-cell;
-	width:37%;
-	vertical-align:middle;
+	width: 37%;
+	vertical-align: middle;
 }
 
 .game-result .name-zolotoy {
-	color:#f7cb55;
+	color: #f7cb55;
 }
 
 .game-result .count {
-	font-size:24px;
+	font-size: 24px;
 	line-height: 40px;
 	font-weight: 700;
 	color: #ffffff;
-	vertical-align:middle;
+	vertical-align: middle;
 	display: table-cell;
 }
-.owner-result{
-	display:inline-block;
-	width:35px;
+
+.owner-result {
+	display: inline-block;
+	width: 35px;
 	text-align: right;
 }
-.guest-result{
-	display:inline-block;
-	width:35px;
+
+.guest-result {
+	display: inline-block;
+	width: 35px;
 	text-align: left;
 }
+
 .games-resources {
 	height: 30px;
 }
+
 .games-resource-item {
 	color: #979797;
-	font-size:10px;
-	display:inline-block;
+	font-size: 10px;
+	display: inline-block;
 	text-transform: uppercase;
 }
 
@@ -364,26 +382,26 @@ body {
 
 /*table of results*/
 .table-results {
-	font-size:12px;
-	line-height:18px;
-	font-weight:700;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 700;
 	text-transform: uppercase;
 	background-color: #504f4b;
-	color:#979693;
+	color: #979693;
 }
 
 .table-results caption {
-	font-size:16px;
+	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #ffffff;
 	border-bottom: 5px solid #e7bb44;
-	padding-top:0;
-	margin-bottom:10px;
+	padding-top: 0;
+	margin-bottom: 10px;
 }
 
 .table-results caption caret {
-	transform:scale(1.5);
+	transform: scale(1.5);
 }
 
 .table-results th {
@@ -407,21 +425,22 @@ body {
 	color: #ffffff;
 }
 
-.table-results td{
+.table-results td {
 	height:50px;
 	vertical-align: middle;
 }
 
 .table-results .number {
-	text-align:center;
+	text-align: center;
 }
-.table-results .team-logo{
-	text-align:center;
+
+.table-results .team-logo {
+	text-align: center;
 }
 
 .table-results .team-result {
 	min-width: 45px;
-	text-align:center;
+	text-align: center;
 }
 
 
@@ -432,35 +451,36 @@ body {
 	font-weigt: 400;
 	color: #000000;
 	background-color: #d2a630;
-	padding-top:25px;
-	padding-bottom:45px;
+	padding-top: 25px;
+	padding-bottom: 45px;
 }
 
 .team-item {
 	padding-bottom: 30px;
 }
 
-.teams .row{
-	margin-left:0px;
-	margin-right:0px;
+.teams .row {
+	margin-left: 0px;
+	margin-right: 0px;
 }
+
 .teams [class*='col-'] {
-	padding-right:6px;
-	padding-left:6px;
+	padding-right: 6px;
+	padding-left: 6px;
 }
 
 .team-item .row {
 	margin-left: 0;
-	margin-right:0;
-	padding-bottom:10px;
-	padding-top:10px;
+	margin-right: 0;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	border-bottom: 1px solid #000000;
-	padding-right:10px;
+	padding-right: 10px;
 }
 
-.team-item .img-responsive{
-	margin-bottom:10px;
-	width:100%;
+.team-item .img-responsive {
+	margin-bottom: 10px;
+	width: 100%;
 }
 
 .team-item .status {
@@ -468,23 +488,23 @@ body {
 }
 
 .teams header {
-	font-size:16px;
-	font-weight:700;
+	font-size: 16px;
+	font-weight: 700;
 	text-transform: uppercase;
 	color: #000000;
-	padding-bottom:10px;
-	margin-bottom:15px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
 	border-bottom: 5px solid #000000;
 }
 
-.teams .names p{
-	font-weight:700;
-	padding-left:10px;
-	margin:0;
+.teams .names p {
+	font-weight: 700;
+	padding-left: 10px;
+	margin: 0;
 }
 
-.teams .positions p{
-	margin:0;
+.teams .positions p {
+	margin: 0;
 }
  
 /*news&interviews*/
@@ -493,15 +513,15 @@ body {
 	padding-bottom: 30px;
 }
 
-.news-interviews .container{
-	padding:15px;
+.news-interviews .container {
+	padding: 15px;
 }
 
 .news-interviews h3 {
-	font-size:16px;
+	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color:#275b9c;
+	color: #275b9c;
 	margin-bottom: 30px;
 }
 
@@ -509,13 +529,13 @@ body {
 	margin-bottom: 85px;
 }
 
-.news-interviews img{
-	width:100%;
+.news-interviews img {
+	width: 100%;
 }
 
 .date-times {
 	font-weight: 700;
-	font-size:14px;
+	font-size: 14px;
 	color: #000000;
 }
 
@@ -523,13 +543,12 @@ body {
 	font-size: 14px;
 	line-height: 22px;
 	color: #888888;
-	margin-top:20px;
+	margin-top: 20px;
 }
 
 .interview-block {
 	margin-bottom: 20px;
 }
-
 
 .interview-block .author {
 	font-weight: 700;
@@ -542,30 +561,30 @@ body {
 }
 
 .main-footer {
-	padding-top:47px;
+	padding-top: 47px;
 	padding-bottom: 70px;
-	font-size:14px;
+	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
-	color:#888787;
+	color: #888787;
 }
 
  .main-footer .partner {
-	 display:inline-block;
-	 padding-bottom:25px;
+	 display: inline-block;
+	 padding-bottom: 25px;
  }
 
 .main-footer h3 {
-	font-size:16px;
+	font-size: 16px;
 	font-weight: 700;
-	margin-top:45px;
+	margin-top: 45px;
 	margin-bottom: 35px;
 	text-transform: uppercase;
 	color: #ffffff;
 }
 
-.contacts div{
-	margin-bottom:15px;
+.contacts div {
+	margin-bottom: 15px;
 }
 
 .main-footer .phone {
@@ -592,51 +611,70 @@ body {
 
 .footer-social .social-btn-youtube {
 	width: 27px;
-	height:19px;
+	height: 19px;
 	background-image: url(../img/icon-youtube-footer.png);
 }
 
 
-
+/*media-queries*/
 
 @media screen and (max-width: 768px) {
 	.team-item {
 		max-width: 450px;
-		margin:0 auto;
+		margin: 0 auto;
 	}
 	
 	.news-block,
 	.interview-block, 
 	.news-interviews h3 {
 		max-width: 450px;
-		margin:0 auto;
-		margin-bottom:30px;
+		margin: 0 auto;
+		margin-bottom: 30px;
 	}
 	
 	.last-news {
 		position: relative;
+		text-align: left;
+	}
+	
+	.last-news-title {
+		text-align: left;
+	}
+	
+	.navbar-form{
+		padding-left: 25px;
+		padding-right: 40%;
+		border: none;
+		box-shadow: none;
+	}
+
+}
+
+
+@media screen and (max-width: 1200px) {
+	.table-results {
+		max-width: 600px;
+		margin: 0 auto;
 	}
 }
 
-@media screen and (max-width: 1200px) {
-.table-results {
-		max-width: 600px;
-		margin:0 auto;
-	}
-}
 
 @media screen and (min-width: 1200px) {
 	.news {
-		padding-right:0 !important;
+		padding-right: 0 !important;
 	}
+	
 	.interviews {
-		padding-left:0 !important;
+		padding-left: 0 !important;
 	}
+	
 	.interview-block {
-		padding-right:25px;;
+		padding-right: 25px;;
 	}
+	
 	.news-block {
 	padding-right: 40px;
 	}
+	
 }
 
