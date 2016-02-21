@@ -525,3 +525,11 @@ body {
 	height:19px;
 	background-image: url(../img/icon-youtube-footer.png);
 }
+
+
+@media screen and (max-width: 768px) {
+	.team-item {
+		max-width: 450px;
+		margin:0 auto;
+	}
+}
