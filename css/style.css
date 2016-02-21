@@ -154,6 +154,17 @@ body {
 	background-color: transparent;
 	color:#fcbf00;
 }
+.main-nav .navbar-collapse {
+	padding:0;
+}
+.main-nav button {
+	color:#fcbf00;
+}
+.main-nav .icon-bar{
+	color:#fcbf00;
+	background-color:#fcbf00;
+	
+}
 
 
 
