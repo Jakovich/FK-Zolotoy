@@ -79,11 +79,24 @@ body {
 
 /*main-header*/
 .main-header {
-	padding-top:25px;
-	margin-bottom:50px;
+	
+	margin-bottom:20px;
 }
+.second-row-left {
+	text-align:left;
+	padding-left:30px;
+}
+
+.second-row-right {
+	margin:0;
+	padding:0 15px 0 25px;
+}
+
 .main-header .logo{
 	padding-top:20px;
+}
+.main-header .col-lg-2{
+	padding-right:0;
 }
 .main-title {
 	padding-bottom:20px;
@@ -100,12 +113,14 @@ body {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 40px;
+	margin-top:40px;
 }
 
 .title {
 	position:relative;
 	padding-top:20px;
 	padding-right:85px;
+	margin-top:20px;
 	width:250px;
 	color:#979693;
 	font-size:12px;
