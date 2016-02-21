@@ -14,10 +14,12 @@ body {
 	background-color: #1a1919;
 	padding-top: 5px;
 	
+	
 }
 .pre-header-nav .navbar {
 	margin-bottom: 0;
 }
+
 
 .pre-header-nav a {
 	font-size: 12px;
@@ -54,6 +56,7 @@ body {
 
 .zolotoy-shop {
 	padding-top: 10px;
+	padding-bottom:5px;
 }
 
 .navbar-form {
@@ -646,6 +649,11 @@ body {
 		padding-right: 40%;
 		border: none;
 		box-shadow: none;
+	}
+	.navbar-collapse{
+		margin-top:30px;
+		border:none;
+		box-shadow:none;
 	}
 
 }
