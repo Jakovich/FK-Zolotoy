@@ -491,6 +491,7 @@ body {
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
+
 .news-interviews .container{
 	padding:15px;
 }
@@ -503,7 +504,6 @@ body {
 	margin-bottom: 30px;
 }
 
-
 .news-block {
 	margin-bottom: 85px;
 }
@@ -512,14 +512,11 @@ body {
 	width:100%;
 }
 
-
-
 .date-times {
 	font-weight: 700;
 	font-size:14px;
 	color: #000000;
 }
-
 
 .news-interviews .explic {
 	font-size: 14px;
@@ -532,10 +529,6 @@ body {
 	margin-bottom: 20px;
 }
 
-.interviews [class*='col-'] {
-	
-
-}
 
 .interview-block .author {
 	font-weight: 700;
@@ -610,13 +603,13 @@ body {
 		max-width: 450px;
 		margin:0 auto;
 	}
+	
 	.news-block,
 	.interview-block, 
 	.news-interviews h3 {
 		max-width: 450px;
 		margin:0 auto;
 		margin-bottom:30px;
-		
 	}
 }
 
@@ -635,7 +628,10 @@ body {
 		padding-left:0 !important;
 	}
 	.interview-block {
-		padding-right:0;
+		padding-right:25px;;
+	}
+	.news-block {
+	padding-right: 40px;
 	}
 }
 
