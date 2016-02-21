@@ -182,6 +182,7 @@ body {
 
 .intro-img-container {
 	padding:0;
+	
 }
 
 .intro-img {
@@ -190,19 +191,19 @@ body {
 
 .last-news {
 	display:block;
-	
+	position:absolute;
 	bottom:0;
+	left:0;
+	right:0;
 	font-sixe:16px;
 	text-transform: uppercase;
-}
-.last-news .col-sm-2 {
 	margin:0;
-	padding-right:0;
 }
 
-.last-news .col-sm-10  {
-	margin:0;
-	padding-left:0;
+
+.last-news  [class*='col-'] {
+	padding:0;
+	
 }
 
 .last-news a{
@@ -212,14 +213,14 @@ body {
 
 .last-news-title {
 	color: #ffffff;
-	
+	text-align: center;
 	background-color: rgba(169,136,48,0.9);
 }
 
 .last-news-item {
 	color: #232520;
 	font-weight: 700;
-	
+	padding-left: 30px;
 	background-color:rgba(213,177,80,0.85);
 }
 
@@ -610,6 +611,10 @@ body {
 		max-width: 450px;
 		margin:0 auto;
 		margin-bottom:30px;
+	}
+	
+	.last-news {
+		position: relative;
 	}
 }
 
