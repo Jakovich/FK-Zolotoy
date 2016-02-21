@@ -469,9 +469,8 @@ body {
 }
 
 .news [class*='col-'] {
-	padding-right:45px;
+	padding-right:50px;
 }
-
 
 .news-block {
 	margin-bottom: 75px;
@@ -499,7 +498,11 @@ body {
 
 .interview-block {
 	margin-bottom: 20px;
-	
+}
+
+.interviews [class*='col-'] {
+	padding-right:40px;
+	padding-left:0;
 }
 
 .interview-block .author {
@@ -537,6 +540,10 @@ body {
 	color: #ffffff;
 }
 
+.contacts div{
+	margin-bottom:15px;
+}
+
 .main-footer .phone {
 	color: #ffffff;
 }
@@ -566,6 +573,8 @@ body {
 }
 
 
+
+
 @media screen and (max-width: 768px) {
 	.team-item {
 		max-width: 450px;
@@ -591,4 +600,12 @@ body {
 	
 }
 
+}
+
+@media screen and (min-width: 1200px){
+	.interviews {
+		padding-left:0;
+		margin-left:0;
+	}
+	
 }
