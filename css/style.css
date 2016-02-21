@@ -195,9 +195,18 @@ body {
 
 /*results*/
 
-.game-results{
+.tablo-section {
+	
+}
+
+.results{
 	background-color:#2f2d29;
 	padding-top:40px;
+}
+
+.game-results [class*='col-'] {
+	padding-left:0;
+	padding-right:0;
 }
 
 .game-results h2 {
@@ -215,6 +224,14 @@ body {
 
 .game {
 	margin-bottom: 15px;
+	min-width: 350px;
+}
+
+.last-games .game {
+	margin-right: 3px;
+}
+.future-games .game {
+	margin-left:3px;
 }
 
 .game-result {
@@ -224,6 +241,7 @@ body {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-bottom: 5px;
+	
 } 
 
 .game-info {
@@ -263,6 +281,14 @@ body {
 	vertical-align:middle;
 }
 
+.game-result .owner .name {
+	padding-right:5px;
+}
+
+.game-result .guest .name {
+	padding-left:5px;
+}
+
 .game-result .guest {
 	display: table-cell;
 	width:37%;
@@ -291,12 +317,14 @@ body {
 	width:35px;
 	text-align: left;
 }
+.games-resources {
+	height: 30px;
+}
 .games-resource-item {
 	color: #979797;
 	font-size:10px;
 	display:inline-block;
 	text-transform: uppercase;
-	height: 30px;
 }
 
 
@@ -530,6 +558,12 @@ body {
 @media screen and (max-width: 768px) {
 	.team-item {
 		max-width: 450px;
+		margin:0 auto;
+	}
+}
+@media screen and (max-width: 1200px) {
+.table-results {
+		max-width: 600px;
 		margin:0 auto;
 	}
 }
