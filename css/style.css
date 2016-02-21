@@ -5,7 +5,7 @@ body {
 .intro {
 	background-color:#211f1e;
 	background-image:url(../img/intro-bg.jpg);
-	background-position: 0 center;
+	background-position: center 0;
 	background-repeat: repeat-y;
 }
 
@@ -57,6 +57,9 @@ body {
 	padding-top:10px;
 }
 
+.form-container {
+
+}
 .form-control {
 	background-color: #1a1919;
 	padding-right:0;
@@ -146,8 +149,14 @@ body {
 	text-transform: uppercase;
 }
 
-.main-menu a:hover {
-	
+.nav>li>a:hover,
+.nav>li>a:focus {
+	background-color: #fcbf00;
+}
+
+.nav>li.active>a:hover,
+.nav>li.active>a:focus {
+	background-color: #7e7d7d;
 }
 
 .main-menu li.active a {
@@ -247,7 +256,7 @@ body {
 
 .game {
 	margin-bottom: 15px;
-	min-width: 350px;
+	min-width: 370px;
 }
 
 .last-games .game {
