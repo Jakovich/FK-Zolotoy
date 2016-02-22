@@ -30,6 +30,7 @@ body {
 
 .pre-header-social {
 	padding-top: 10px;
+	text-align:right;
 }
 
 .pre-header-social .social-btn {
@@ -401,10 +402,16 @@ body {
 	border-bottom: 5px solid #e7bb44;
 	padding-top: 0;
 	margin-bottom: 10px;
+	position: relative;
+	padding-right:15px;
+	
 }
 
-.table-results caption caret {
-	transform: scale(1.5);
+.table-results caption .caret {
+	transform: scaleX(1.4) scaleY(2.2);
+	position:absolute;
+	top:5px;
+	right:5px;
 }
 
 .table-results th {
@@ -655,7 +662,7 @@ body {
 		border:none;
 		box-shadow:none;
 	}
-
+	
 }
 
 
@@ -664,6 +671,10 @@ body {
 		max-width: 600px;
 		margin: 0 auto;
 	}
+	.pre-header-social {
+		text-align:left;
+	}
+
 }
 
 
