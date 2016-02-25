@@ -537,8 +537,32 @@ body {
 	width: 100%;
 }
 
-.team-item .status {
-	line-height: 25px;
+.team-item .status-text {
+	line-height: 27px;
+}
+
+.status-circles {
+	line-height: 0;
+}
+
+.circle-item {
+	display: inline-block;
+	width:25px;
+	height:25px;
+	border-radius: 50%;
+	margin-left: 5px;
+}
+
+.circle-yellow {
+	background-color: #f4f25c;
+}
+
+.circle-green {
+	background-color: #219c1b;
+}
+
+.circle-bordeaux {
+	background-color: #a73636;
 }
 
 .teams header {
