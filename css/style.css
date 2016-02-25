@@ -461,6 +461,7 @@ ul.nav:after {
 
 .games-resource-item:hover {
 	color: #ffffff;
+	text-decoration: none;
 }
 
 
@@ -736,7 +737,11 @@ ul.nav:after {
 
 /*media-queries*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+	body {
+		min-width: 480px;
+	}
+	
 	.container {
 		max-width: 480px;
 	}
@@ -803,7 +808,7 @@ ul.nav:after {
 
 
 
-@media screen and (max-width: 992px) and (min-width:768px) {
+@media screen and (max-width: 992px) and (min-width:767px) {
 	
 	.title{
 		padding-top: 55px;
