@@ -392,6 +392,32 @@ body {
 	text-transform: uppercase;
 }
 
+.games-resource-photo {
+	width: 20px;
+	height: 16px;
+	background-image: url("../img/icon-photo.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.games-resource-photo:hover {
+	background-image: url("../img/icon-photo_white.png");
+}
+
+.games-resource-video {
+	width: 21px;
+	height: 16px;
+	background-image: url("../img/icon-youtube_result.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.games-resource-video:hover {
+	background-image: url("../img/icon-youtube_result_white.png");
+}
+
 .games-resource-item:hover {
 	color: #ffffff;
 }
