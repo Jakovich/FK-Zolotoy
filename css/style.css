@@ -176,29 +176,12 @@ body {
 	background-image: url(../img/icon-cup.png);
 }
 
-.main-nav a {
-	color: #7e7d7d;
-	font-size: 14px;
-	font-weight: 700;
-	text-transform: uppercase;
-}
-
-.nav > li > a {
-    display: inline-block;
-    padding: 0;
-    position: relative;
-}
-
-.nav> li {
-    display: inline-block;
-    position: relative;
-}
-
 ul.nav {
     text-align: justify;
 }
 
-ul.nav:before{
+ /*Псевдоэлементы для распределения пунктов меню по ширине*/
+ul.nav:before {
     content: '';
     display: block;
     width: 100%;
@@ -214,8 +197,23 @@ ul.nav:after {
     display: inline-block;
 }
 
+.nav> li {
+    display: inline-block;
+    position: relative;
+}
+
 .nav> li:last-child {
 	margin-right: 10px;
+}
+
+.nav > li > a {
+	color: #7e7d7d;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+    display: inline-block;
+    padding: 0;
+    position: relative;
 }
 
 .nav>li>a:hover,
@@ -237,10 +235,6 @@ ul.nav:after {
 
 .main-nav .navbar-collapse {
 	padding: 0;
-}
-
-.main-nav button {
-	color: #fcbf00;
 }
 
 .main-nav .icon-bar {
@@ -270,7 +264,6 @@ ul.nav:after {
 	text-transform: uppercase;
 	margin: 0;
 }
-
 
 .last-news  [class*='col-'] {
 	padding: 0;
@@ -311,7 +304,6 @@ ul.nav:after {
 	padding-left: 3px;
 	padding-right: 3px;
 }
-
 
 .game-results h2 {
 	font-size:16px;
@@ -481,7 +473,6 @@ ul.nav:after {
 	margin-bottom: 10px;
 	position: relative;
 	padding-right:15px;
-	
 }
 
 .table-results caption .caret {
@@ -734,6 +725,18 @@ ul.nav:after {
 /*media-queries*/
 
 @media screen and (max-width: 766px) {
+	
+	.nav li {
+		display: block;
+		text-align:center;
+		padding-bottom:15px;
+		padding-top:15px;
+	}
+	
+	.nav li:last-child {
+		margin-right:0;
+	}
+	
 	.team-item {
 		max-width: 450px;
 		margin: 0 auto;
