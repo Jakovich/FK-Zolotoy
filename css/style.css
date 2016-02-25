@@ -119,25 +119,24 @@ body {
 	text-align: left;
 	padding-left: 30px;
 	padding-top: 25px;
+	padding-right:0;
 }
 
 .second-row-right {
-	margin: 0;
-	padding: 0 15px 0 0;
+	margin-left:0;
+	padding-left:25px;
+	padding-right:25px;
 }
 
 .main-header .logo {
 	padding-top: 20px;
 }
 
-.main-header .col-lg-2 {
-	padding-right: 0;
-}
-
 .main-title {
 	padding-bottom: 20px;
 	border-bottom: 2px solid #fcbf00;
 	margin-bottom: 25px;
+	vertical-align: bottom;
 }
 
 .main-title-name {
@@ -156,9 +155,10 @@ body {
 .title {
 	position: relative;
 	padding-top: 25px;
-	padding-right: 80px;
 	margin-top: 20px;
-	width: 245px;
+	padding-right:95px;
+	max-width:240px;
+	padding-left:0;
 	color: #979693;
 	font-size: 11px;
 	line-height: 14px;
@@ -167,7 +167,7 @@ body {
 
 .title::after {
 	position: absolute;
-	right: 0;
+	right:25px;;
 	top: -18px;
 	content:'';
 	display: block;
@@ -176,8 +176,14 @@ body {
 	background-image: url(../img/icon-cup.png);
 }
 
+.main-nav{
+	margin-left:-15px;
+	margin-right:-15px;
+}
+
 ul.nav {
     text-align: justify;
+	position: relative;
 }
 
  /*Псевдоэлементы для распределения пунктов меню по ширине*/
@@ -203,7 +209,7 @@ ul.nav:after {
 }
 
 .nav> li:last-child {
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 .nav > li > a {
@@ -235,6 +241,12 @@ ul.nav:after {
 
 .main-nav .navbar-collapse {
 	padding: 0;
+}
+
+.navbar-toggle {
+	top:-10px;;
+	right:0;
+	position: absolute;
 }
 
 .main-nav .icon-bar {
@@ -367,7 +379,7 @@ ul.nav:after {
 
 .game-result .owner {
 	display: table-cell;
-	width: 37%;
+	width: 38%;
 	vertical-align: middle;
 }
 
@@ -381,7 +393,7 @@ ul.nav:after {
 
 .game-result .guest {
 	display: table-cell;
-	width: 37%;
+	width: 38%;
 	vertical-align: middle;
 }
 
@@ -400,13 +412,13 @@ ul.nav:after {
 
 .owner-result {
 	display: inline-block;
-	width: 35px;
+	width: 30px;
 	text-align: right;
 }
 
 .guest-result {
 	display: inline-block;
-	width: 35px;
+	width: 30px;
 	text-align: left;
 }
 
@@ -724,7 +736,10 @@ ul.nav:after {
 
 /*media-queries*/
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 768px) {
+	.container {
+		max-width: 480px;
+	}
 	
 	.nav li {
 		display: block;
@@ -759,26 +774,53 @@ ul.nav:after {
 		text-align: left;
 	}
 	
-	.navbar-form{
+	.navbar-form {
 		padding-left: 25px;
 		padding-right: 30%;
 		border: none;
 		box-shadow: none;
 	}
-	.navbar-collapse{
+	
+	.navbar-collapse {
 		margin-top:30px;
 		border:none;
 		box-shadow:none;
 	}
 	
+	.title {
+		padding-right: 70px;
+		padding-left: 20px;
+	}
+	
+	.title:after {
+		right:-10px;
+	}
+		
+	.main-title h1 {
+		max-width:300px;
+	}
 }
 
+
+
+@media screen and (max-width: 992px) and (min-width:768px) {
+	
+	.title{
+		padding-top: 55px;
+	}
+
+	.title:after{
+		top: 10px;
+	}
+	
+}
 
 @media screen and (max-width: 1200px) {
 	.table-results {
 		max-width: 600px;
 		margin: 0 auto;
 	}
+	
 	.pre-header-social {
 		text-align:left;
 	}
