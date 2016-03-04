@@ -485,14 +485,37 @@ ul.nav:after {
 	padding-top: 0;
 	margin-bottom: 10px;
 	position: relative;
-	padding-right:15px;
+	padding-bottom: 6px;
 }
 
-.table-results caption .caret {
-	transform: scaleY(1.8);
-	position:absolute;
-	top:5px;
-	right:10px;
+.select {
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	position: absolute;
+	width: 100%; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 20px;
+	padding: 0;
+	background: url('../img/icon-caret.png') no-repeat;
+	background-position: 98% 2px;
+	overflow: hidden;
+}
+
+select {
+	text-transform: uppercase;
+	background-color: #2f2d29;
+	cursor:pointer;
+	height: 20px;
+	border:none;
+	font-weigth: 700;
+	outline:none;
+}
+
+select option{
+	border:none;
+	margin-top:3px;
+	margin-bottom: 3px;
 }
 
 .table-results th {
