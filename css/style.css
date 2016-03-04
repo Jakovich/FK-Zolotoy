@@ -488,7 +488,7 @@ ul.nav:after {
 	padding-bottom: 6px;
 }
 
-select {
+.table-results select {
 	width: 100%;
 	text-transform: uppercase;
 	background-color: #2f2d29;
@@ -510,7 +510,7 @@ select {
 	outline:none;
 }
 
-select option{
+.table-results select option{
 	font-weigth: 700;
 	border:none;
 	margin-top:5px;
