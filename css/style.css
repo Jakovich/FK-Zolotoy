@@ -488,23 +488,21 @@ ul.nav:after {
 	padding-bottom: 6px;
 }
 
-.select {
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #ffffff;
-	position: absolute;
-	width: 100%;
-	height: 20px;
-	padding: 0;
-	background: url('../img/icon-caret.png') no-repeat;
-	background-position: 98% 2px;
-	overflow: hidden;
-}
-
 select {
+	width:100%;
 	text-transform: uppercase;
 	background-color: #2f2d29;
+	-webkit-appearance: none;
+	background-image: url('../img/icon-caret.png');
+	background-repeat:no-repeat; 
+	background-position: 98% 5px;
+	/* for FF */
+	-moz-appearance: none;
+	text-indent: 0.01px; 
+	text-overflow: '';
+	/* for IE */
+	-ms-appearance: none;
+	appearance: none!important;
 	cursor:pointer;
 	height: 20px;
 	border:none;
@@ -514,8 +512,8 @@ select {
 
 select option{
 	border:none;
-	margin-top:3px;
-	margin-bottom: 3px;
+	margin-top:5px;
+	margin-bottom: 5px;
 }
 
 .table-results th {
